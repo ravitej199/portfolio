@@ -1,0 +1,18 @@
+.home_social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+   
+    .home_social{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1.5rem;
+        margin-right: 3rem;
+    }
+}

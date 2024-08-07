@@ -1,0 +1,152 @@
+.project_container{
+
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    column-gap: 3rem;
+    justify-content: center;
+}
+
+
+.project_content {
+    background-color: var(--container-color);
+    border : 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    border-radius: 1.25rem;
+}
+
+
+.project_title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    text-align: center;
+    margin-bottom: var(--mb-0-5);
+}
+
+.project_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.project_group{
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+
+.project_data{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.proj_img_pswdmgr{
+
+    background: url(../../assets/pswdmgr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    order:1;
+    justify-self: center;
+
+}
+
+.proj_img_cloudbook{
+    background: url(../../assets/cloudbook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    order:1;
+    justify-self: center;
+   
+
+}
+
+.proj_img{
+    order: 1;
+    width: 400px;
+    height: 250px;
+}
+
+.about_proj{
+    text-align:left;
+    margin-block-start: 0;
+    line-height: 1.6;
+    order: 2;
+    margin-left: 1rem;
+}
+
+.project_links{
+    order: 3;
+    display: flex;
+    gap: 3rem;
+    margin-bottom: var(--mb-0-5);
+}
+
+.proj_button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 992px) {
+    .project_container{
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }
+
+    .about_proj{
+        text-align:left;
+        margin-block-start: 0;
+        line-height: 1.6;
+        order: 2;
+        width: 450px
+       
+    }
+
+
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    .project_container{
+        grid-template-columns: 1fr;
+       
+    }
+
+    .project_content{
+        padding: 1.5rem;
+    }
+
+    .proj_img{
+        order: 1;
+        width: 250px;
+        height: 100px;
+    }
+
+    .about_proj{
+        text-align:left;
+        margin-top: 1rem;
+        line-height: 1.6;
+        order: 2;
+        width: 250px
+
+    }
+    
+}
+
+
+@media screen and (max-width: 350px) {
+    .project_box{
+       column-gap: 1.25rem;
+       
+    }
+
+    .project_name{
+        font-size: var(--small-font-size);
+    }
+    
+}
