@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/potrfolio/static/css/main.dddd1e55.css",
+    "main.js": "/potrfolio/static/js/main.7bf542ae.js",
+    "static/js/453.1407b060.chunk.js": "/potrfolio/static/js/453.1407b060.chunk.js",
+    "static/media/pswdmgr.png": "/potrfolio/static/media/pswdmgr.1bd3fd85789eac93a30a.png",
+    "static/media/RavitejResume.pdf": "/potrfolio/static/media/RavitejResume.db3cc817dbf180982be0.pdf",
+    "static/media/cloudbook.png": "/potrfolio/static/media/cloudbook.23682ba1e4f40d24e079.png",
+    "static/media/prof.jpg": "/potrfolio/static/media/prof.9163c472d0d698404635.jpg",
+    "index.html": "/potrfolio/index.html",
+    "main.dddd1e55.css.map": "/potrfolio/static/css/main.dddd1e55.css.map",
+    "main.7bf542ae.js.map": "/potrfolio/static/js/main.7bf542ae.js.map",
+    "453.1407b060.chunk.js.map": "/potrfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dddd1e55.css",
+    "static/js/main.7bf542ae.js"
+  ]
+}
