@@ -20,6 +20,7 @@ function Contact() {
                             ravitejravi90@gmail.com
                             </span>
                             <a href="mailto:ravitejravi90@gmail.com" className="contact_button">
+
                                 Write me a message <i className="bx bx-right-arrow-alt contact_button-icon">
                                     
                                 </i>
@@ -43,22 +44,6 @@ function Contact() {
                       
                     </div>
                 </div>
-
-                {/* <div className="contact_content">
-                    <h3 className='contact_title'>Write a Message</h3>
-                        <form action="" className="contact_form">
-                            <div className="contact_form-div">
-
-                            <label htmlFor="email" className="contact_form-tag">Mail</label>
-                            <input type="email" name='email' id='email' className='contact_form_input' placeholder='insert your email'/>
-                            </div>
-                            <div className="contact_form-div">
-
-                            <label htmlFor="name" className="contact_form-tag">Name</label>
-                            <input type="text" name='name' id='name' className='contact_form_input' placeholder='inser your Name'/>
-                            </div>
-                        </form>
-                </div> */}
             </div>
         </section>
       

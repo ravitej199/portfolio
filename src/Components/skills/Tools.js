@@ -1,8 +1,15 @@
 import React from 'react'
+import { useInView } from 'react-intersection-observer';
 
 function Tools() {
+
+  const { ref, inView } = useInView({
+    threshold: 0.1,
+    triggerOnce: true, 
+  });
+
   return (
-    <div className='skills_content'>
+    <div ref={ref} className={`skills_content ${inView ? ' box_1' : ''}`}>
     <h3 className="skills_title">Tools</h3>
   <div className='skills_box'>
     <div className='skills_group'>

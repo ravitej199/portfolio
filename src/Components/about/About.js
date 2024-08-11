@@ -1,17 +1,24 @@
 import React from 'react'
+import { useInView } from 'react-intersection-observer';
 import './about.css'
 
 
 import Resume from '../../assets/RavitejResume.pdf'
 const About = () => {
+
+    const { ref, inView } = useInView({
+        threshold: 0.1,
+        triggerOnce: true, 
+      });
+  
   return (
     
  <section className="about section container" id="about">
     <h2 className="section_title">About Me</h2>
     <span className="section_subtitle">My Introduction</span>
 
-    <div className="about_container ">
-        <p className="about_description">
+    <div ref={ref} className={`about_container ${inView ? ' opacity' : ''}`}>
+          <p className="about_description">
             In 2023, I received a Bachelor of Engineering degree in Computer Science, where I studied software development, data structures, algorithms, and web technologies. Additionally, I have experience developing ASP.NET and MERN stack applications.
         </p>
 

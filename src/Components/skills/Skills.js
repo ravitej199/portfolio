@@ -3,6 +3,7 @@ import Frontend from './Frontend'
 import Backend from './Backend'
 import Tools from './Tools'
 import './skills.css'
+
 import Programminglang from './Programminglang'
 function Skills() {
   return (

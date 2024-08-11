@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="header">
   <nav className="nav container" role="navigation" aria-label="Main Navigation">
-    <a href="#" className="nav_logo">Ravitej</a>
+    <a href="#about" className="nav_logo">Ravitej</a>
 
     <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
       <ul className="nav_list">

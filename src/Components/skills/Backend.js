@@ -1,8 +1,18 @@
 import React from 'react'
+import { useInView } from 'react-intersection-observer';
+
 
 function Backend() {
+  const { ref, inView } = useInView({
+    threshold: 0.1,
+    triggerOnce: true, 
+  });
+
+
+
+
   return (
-    <div className='skills_content'>
+    <div ref={ref} className={`skills_content ${inView ? ' box_2' : ''}`}>
     <h3 className="skills_title">Backend</h3>
   <div className='skills_box'>
     <div className='skills_group'>
