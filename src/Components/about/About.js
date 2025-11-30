@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import './about.css'
 
 
-import Resume from '../../assets/RavitejResume.pdf'
+import Resume from '../../assets/resume.pdf'
 const About = () => {
 
     const { ref, inView } = useInView({

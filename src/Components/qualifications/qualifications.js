@@ -92,6 +92,21 @@ function Qualifications() {
                 </div>
               </div>
             </div>
+               <div className="qualification_data">
+              <div></div>
+              <div className="line_height_set">
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+              <div>
+                <h3 className="qualification_title">Frontend Developer</h3>
+                <span className="qualification_subtitle">Aarabhya Systems Pvt Ltd</span>
+                <div className="qualification_calender">
+                  <i className="uil uil-calendar-alt"></i>
+                  April 2025 - Present
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
